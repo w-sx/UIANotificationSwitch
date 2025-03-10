@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'UIANotificationSwitch' '2025.3'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2025-03-10 22:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: addon\globalPlugins\UIANotificationSwitch.py:13 buildVars.py:23
+msgid "UIANotificationSwitch"
+msgstr "UIA 通知开关"
+
+#: addon\globalPlugins\UIANotificationSwitch.py:18
+msgid "UIA Notification off"
+msgstr "UIA 通知 关闭"
+
+#: addon\globalPlugins\UIANotificationSwitch.py:18
+msgid "UIA Notification on"
+msgstr "UIA 通知 打开"
+
+#: addon\globalPlugins\UIANotificationSwitch.py:18
+msgid "UIA notification beep"
+msgstr "UIA 通知 提示音"
+
+#: addon\globalPlugins\UIANotificationSwitch.py:26
+msgid "switch UIA Notification"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Switch UIA Notification"
+msgstr "开关 UIA 通知"
