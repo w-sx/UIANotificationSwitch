@@ -14,20 +14,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
-		self.switch = config.conf['UIANotificationSwitch']['switch']
-		self.description = [_('UIA Notification off'),_('UIA Notification on'),_('UIA notification beep')]
+		self.status = [_('off'),_('on'),_('beep')]
 
 	def event_UIA_notification(self, obj, nextHandler):
-		if self.switch == 0: nextHandler()
-		elif self.switch > 0: tones.beep(440,10)
-		elif self.switch: return
+		switch = int(config.conf['UIANotificationSwitch']['switch'])
+		if switch == 0: nextHandler()
+		elif switch > 0: tones.beep(440,10)
+		elif switch: return
 
 	@script(
 		description=_('switch UIA Notification'),
 		gesture='kb:NVDA+I'
 	)
 	def script_UIANotificationSwitch(self, gesture):
-		self.switch += 1
-		if self.switch>1: self.switch = -1
-		config.conf['UIANotificationSwitch']['switch'] = self.switch
-		ui.message(self.description[self.switch+1])
+		switch = int(config.conf['UIANotificationSwitch']['switch']) + 1
+		if switch>1: switch = -1
+		config.conf['UIANotificationSwitch']['switch'] = switch
+		ui.message(_('UIA Notification ') + self.status[switch + 1])

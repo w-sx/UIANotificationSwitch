@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'UIANotificationSwitch' '2025.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2025-03-10 22:42+0800\n"
+"POT-Creation-Date: 2025-03-11 16:46+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Shunxian Wu <PurrHare@outlook.com@>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,23 +22,27 @@ msgstr ""
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: addon\globalPlugins\UIANotificationSwitch.py:13 buildVars.py:23
 msgid "UIANotificationSwitch"
-msgstr "UIA 通知开关"
+msgstr "UIA通知开关"
 
-#: addon\globalPlugins\UIANotificationSwitch.py:18
-msgid "UIA Notification off"
-msgstr "UIA 通知 关闭"
+#: addon\globalPlugins\UIANotificationSwitch.py:17
+msgid "off"
+msgstr "关闭"
 
-#: addon\globalPlugins\UIANotificationSwitch.py:18
-msgid "UIA Notification on"
-msgstr "UIA 通知 打开"
+#: addon\globalPlugins\UIANotificationSwitch.py:17
+msgid "on"
+msgstr "打开"
 
-#: addon\globalPlugins\UIANotificationSwitch.py:18
-msgid "UIA notification beep"
-msgstr "UIA 通知 提示音"
+#: addon\globalPlugins\UIANotificationSwitch.py:17
+msgid "beep"
+msgstr "提示音"
 
 #: addon\globalPlugins\UIANotificationSwitch.py:26
 msgid "switch UIA Notification"
-msgstr ""
+msgstr "开关 UIA 通知"
+
+#: addon\globalPlugins\UIANotificationSwitch.py:33
+msgid "UIA Notification "
+msgstr "UIA 通知"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

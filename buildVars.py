@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Switch UIA Notification"""),
 	# version
-	"addon_version": "2025.3",
+	"addon_version": "2025.3.11",
 	# Author(s)
 	"addon_author": "Shunxian Wu <PurrHare@outlook.com>",
 	# URL for the add-on documentation support
